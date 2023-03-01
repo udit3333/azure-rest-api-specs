@@ -33,7 +33,7 @@
     "/documentModels/{modelId}:analyze": {
       "post": {
         "summary": "Analyze document",
-        "description": "Analyzes document with document model.",
+        "description": "Analyze a document using a document model and return structured data representations of the document.\n\nThe structured data representation includes:\n- this\n- that\n- the other thing.\n\nHere's an example of **bold** text.\n\nHere's an example of _italics_.",
         "operationId": "AnalyzeDocument",
         "tags": [
           "Analysis"
